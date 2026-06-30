@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+websockets
+google-genai
+sqlalchemy
+faiss-cpu
+sentence-transformers
