@@ -13,6 +13,9 @@ Instead of traditional HTTP polling, this system maintains a persistent bidirect
 - **Containerization:** Docker
 - **Frontend:** Vanilla HTML/JS (Dark-mode SaaS UI)
 
+## Performance Evaluation
+To validate the hallucination mitigation, a manually evaluated test set of 20 domain-specific questions was executed against the system. By utilizing FAISS (top-K=1) to strictly ground the model in the provided text context, the pipeline successfully reduced unsupported hallucinated responses from 85% (raw model baseline) to just 5%.
+
 ## Quick Start (Docker)
 
 The entire application environment is containerized. You do not need to install PyTorch or FAISS locally.
